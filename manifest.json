@@ -1,0 +1,15 @@
+{
+    "name" : "add text",
+    "version": "1.8.8",
+    "manifest_version": "2",
+    "content_scripts":[
+       {
+        "matchers":["https://progradjunior.org/learning-dashboard"],
+        "js":["content-js"]
+       }
+    ],
+    "browser_action": {
+        "default_title":"add_text",
+        "default_popup": "index.html"
+    }
+}
